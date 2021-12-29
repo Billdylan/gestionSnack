@@ -1,0 +1,153 @@
+/*Style du fond*/
+body {
+    background: gray;
+}
+
+/*Style du fomulaire d'inscription*/
+#container{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    
+}
+
+form{
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+    box-sizing: 0 0 20px 0 rgba(0,0,0,0.2), o 5px 5px 0 rgba(0,0,0,0.24);
+
+
+}
+
+#container h1{
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 10px ;
+}
+
+/*Style des elements du formulaire*/
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+
+/*Style du burger*/
+a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.modale:target{
+
+    visibility: visible;
+    opacity: 1;
+}
+#burger{
+    width: 30px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    position: relative;
+   
+}
+
+#burger::before,#burger::after{
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    position: absolute;
+    transform-origin: center;
+    transition: all 0.3s ease;
+}
+
+#burger::before{
+    top: -7px;
+}
+
+#burger::after{
+    top: 7px;
+}
+
+#burger.open{
+    background: transparent;
+
+}
+
+#burger.open::before{
+    transform: rotate(45deg);
+    top: 0;
+}
+
+#burger.open::after{
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+
+/*Style de la fentre modale*/
+.modale {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0; 
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba ( 77,77,77,77 );
+    transition: all .4s;
+}
+
+/* en fonction des joiueur */
+
+
+
+/* style du contenu de la classe modale*/ 
+
+.modale_content{
+    border-radius: 4px;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    background: white;
+    padding: 1,5em 2em;
+}
+
+.modale_close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gray;
+    text-decoration: none;
+}
