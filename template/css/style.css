@@ -1,6 +1,6 @@
 /*Style du fond*/
 body {
-    background-image: url('../image/Bar-de-Douala1.jpg');
+    background: gray;
 }
 
 /*Style du fomulaire d'inscription*/
@@ -129,6 +129,10 @@ a {
     transition: all .4s;
 }
 
+/* en fonction des joiueur */
+
+
+
 /* style du contenu de la classe modale*/ 
 
 .modale_content{
@@ -146,10 +150,4 @@ a {
     right: 10px;
     color: gray;
     text-decoration: none;
-}
-
-/*Contenu de la modale*/
-
- ul li a{
-    display: block;
 }
