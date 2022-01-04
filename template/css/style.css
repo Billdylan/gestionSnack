@@ -11,7 +11,7 @@ body {
     
 }
 
-form{
+.form{
     border-radius: 10px;
     width: 100%;
     padding: 30px;
@@ -134,7 +134,7 @@ a {
 .modale_content{
     border-radius: 4px;
     position: relative;
-    width: 500px;
+    width: 350px;
     max-width: 90%;
     background: white;
     padding: 1,5em 2em;
@@ -152,4 +152,18 @@ a {
 
  ul li a{
     display: block;
+}
+
+/* Style pour les boissons*/
+.contenu{
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+    box-sizing: 0 0 20px 0 rgba(0,0,0,0.2), o 5px 5px 0 rgba(0,0,0,0.24);
+}
+.contenu img{
+    width: 30px;
+    height: 30px;
 }

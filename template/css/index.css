@@ -1,0 +1,78 @@
+article{
+	width: 300px;
+	height: 200px;
+	float: left;
+	border-radius: 15px;
+	margin: 0 0 10px 10px; 
+}
+
+.overlay {
+	background: rgba(255,255,255,0.7);
+	width: 50%;
+	height: 100%;
+	border-radius: 15px 0 0 15px
+}
+
+article h4 {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.description {
+	padding-top: 10px;
+}
+
+.prix {
+	color:red;
+	padding-bottom: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+.form {
+	margin:10px 0px 0px 5px;
+}
+
+
+form {
+	margin: 30px 0 20px 0;
+}
+
+
+}
+
+.bouton2 {
+	color: #fff;
+	font-weight: bold;
+	background-color: #1d8a70;
+	padding: 9px;
+	font-size: 20px;
+	border-style: none;
+	border-radius: 10px;
+}
+
+.bouton2:hover{
+	color: #fff;
+	background-color: #444;
+	
+}
+
+#container{
+	width: 690px;
+}
+
+.wrapper {
+	background-image: url('../image/Bar-de-Douala1.jpg');
+}
+
+.sidebar{
+	position: absolute;
+	margin: 0;
+    padding: 0;
+	padding-top: 130px;
+	 width: 250px;
+}
